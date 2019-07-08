@@ -1,0 +1,44 @@
+{
+  "name": "@niama/quasar-app-extension-i18n",
+  "version": "0.0.1",
+  "description": "Add i18n to Quasar",
+  "author": "Gregory Bouteiller <gregory.bouteiller@niama.re>",
+  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/niama-strategies/quasar-app-extension-i18n"
+  },
+  "bugs": "https://github.com/niama-strategies/quasar-app-extension-i18n/issues",
+  "homepage": "https://github.com/niama-strategies/quasar-app-extension-i18n",
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "keywords": [
+    "quasar",
+    "app",
+    "app extension",
+    "extension",
+    "niama",
+    "i18n"
+  ],
+  "prettier": {
+    "arrowParens": "always",
+    "bracketSpacing": true,
+    "parser": "typescript",
+    "printWidth": 140,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "es5"
+  },
+  "dependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
+    "vue-i18n": "^8.0.0",
+    "yaml-loader": "^0.5.0"
+  }
+}
