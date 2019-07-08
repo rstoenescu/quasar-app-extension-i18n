@@ -5,6 +5,7 @@ module.exports = (api) =>
       .resourceQuery(/blockType=i18n/)
       .use('vue-i18n-loader')
       .loader('@kazupon/vue-i18n-loader')
+      .end()
       .use('yaml-loader')
       .loader('yaml-loader')
   );
