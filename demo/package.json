@@ -14,8 +14,8 @@
     "quasar": "^1.0.0"
   },
   "devDependencies": {
-    "@niama/quasar-app-extension-i18n": "^0.0.4",
-    "@niama/quasar-app-extension-ts": "^0.0.5",
+    "@niama/quasar-app-extension-i18n": "^0.0.5",
+    "@niama/quasar-app-extension-ts": "^0.0.6",
     "@quasar/app": "^1.0.0"
   },
   "engines": {
