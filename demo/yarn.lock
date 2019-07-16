@@ -817,10 +817,10 @@
   resolved "https://registry.yarnpkg.com/@kazupon/vue-i18n-loader/-/vue-i18n-loader-0.3.0.tgz#e068de2d75d891275814ae28ad1fcaf1b537694f"
   integrity sha512-M2280E9PMxetu6mOdtyh1d6Dif7LwH4gvxD2dgsu7HOyzR26AUNok8DxZ1Y5YAexJvPfbBXC75Llui2myO05Hg==
 
-"@niama/quasar-app-extension-i18n@^0.0.3":
-  version "0.0.3"
-  resolved "https://registry.yarnpkg.com/@niama/quasar-app-extension-i18n/-/quasar-app-extension-i18n-0.0.3.tgz#975d6b425b276c9c6e198c11025d53d21ca543e7"
-  integrity sha512-7BgJKoBXu/pMwgHsjYLt7Uo2AdWqdlAlESAgIsmkM/LgE99mS1/uxv2KRava9Lg59C0tJ3IhlQPBCGl7Defehg==
+"@niama/quasar-app-extension-i18n@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@niama/quasar-app-extension-i18n/-/quasar-app-extension-i18n-0.0.4.tgz#a6691677cb6793c372da9bc6e195924d200dd364"
+  integrity sha512-F9NjewixuDAywnebOnM+n+OIK/5j5clBYGPLsiNLz//zZHwjhzpXXztnRNeKLkS856EnqB+pWTuC6iZQHdFeDw==
   dependencies:
     "@kazupon/vue-i18n-loader" "^0.3.0"
     vue-i18n "^8.0.0"
