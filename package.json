@@ -1,6 +1,6 @@
 {
   "name": "@niama/quasar-app-extension-i18n",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Add i18n to Quasar",
   "author": "Gregory Bouteiller <gregory.bouteiller@niama.re>",
   "license": "MIT",

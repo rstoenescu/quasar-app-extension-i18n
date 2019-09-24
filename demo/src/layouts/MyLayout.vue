@@ -2,29 +2,17 @@
   <q-layout view="lHh Lpr lFf">
     <q-header elevated>
       <q-toolbar>
-        <q-btn
-          flat
-          dense
-          round
-          @click="leftDrawerOpen = !leftDrawerOpen"
-          aria-label="Menu"
-        >
+        <q-btn flat dense round aria-label="Menu" @click="leftDrawerOpen = !leftDrawerOpen">
           <q-icon name="menu" />
         </q-btn>
 
-        <q-toolbar-title>
-          {{ $t('title') }}
-        </q-toolbar-title>
+        <q-toolbar-title>{{ $t('title') }}</q-toolbar-title>
 
         <div>Quasar v{{ $q.version }}</div>
       </q-toolbar>
     </q-header>
 
-    <q-drawer
-      v-model="leftDrawerOpen"
-      bordered
-      content-class="bg-grey-2"
-    >
+    <q-drawer v-model="leftDrawerOpen" bordered content-class="bg-grey-2">
       <q-list>
         <q-item-label header>{{ $t('essential') }}</q-item-label>
         <q-item clickable tag="a" target="_blank" href="https://quasar.dev">
@@ -82,19 +70,19 @@
 </template>
 
 <script>
-import { openURL } from 'quasar'
+import { openURL } from 'quasar';
 
 export default {
   name: 'MyLayout',
-  data () {
+  data() {
     return {
-      leftDrawerOpen: this.$q.platform.is.desktop
-    }
+      leftDrawerOpen: this.$q.platform.is.desktop,
+    };
   },
   methods: {
-    openURL
-  }
-}
+    openURL,
+  },
+};
 </script>
 
 <style>
